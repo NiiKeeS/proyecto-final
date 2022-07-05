@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200&display=swap');
+h1,
+h2{
+font-family: 'Gantari', sans-serif;}
+
+body{
+	background-image: url(img/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 07;
+}
+
+.black{
+	background-color: rebeccapurple;
+	opacity: 1;
+}
+h1{
+	background-color: gray;
+}
+@media screen and (max-width: 280px){
+	img.logo{
+		width: 90px;
+	}
+	.nav{
+		flex-direction: column;
+	}
+}	
+
+@media screen and (max-width: 576px){
+	img.logo{
+		width: 130px;
+	}
+.nav{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.nav{
+		flex-direction: column;
+	}
+}
+
+
+
+li{
+	display: inline-block;
+	text-align: right;
+}
+	
+li a:hover{
+	background:blueviolet;
+	margin: auto;
+	text-align: right;
+}
+}
+#selectores div a:nth-child{
+	background-color: green;
+}
+#selectores div a:nth-child(2){
+	background-color: black;
+}
+#selectores div a:nth-child(3){
+	background-color:red;
+}
